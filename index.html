@@ -34,11 +34,50 @@
 
 <!-- body -->
 
-<body class="">
+<body class="sora-font">
 
     <!-- header -->
 
-    <header>
+    <header class="mt-4">
+
+        <!-- nav bar -->
+
+        <nav class="flex justify-between items-center p-4 mr-4 ml-4 md:mr-20 md:ml-20 lg:mr-32 lg:ml-32">
+
+            <!-- nav logo -->
+
+            <div>
+                <img class="md:w-36 md:block hidden" src="assats/logo-header.png" alt="">
+                <img class="md:hidden block w-16" src="assats/little-d-logo.jpg" alt="">
+            </div>
+
+            <!-- nav items -->
+
+            <div >
+                <ul class="md:flex justify-between items-center gap-5 font-normal text-xl  cursor-pointer hidden">
+                    <li class="hover:text-green-500">Product</li>
+                    <li class="hover:text-green-500">Servicrs</li>
+                    <li class="hover:text-green-500">Contact us</li>
+                </ul>
+            </div>
+
+            <!-- nav buttons & icons -->
+
+            <div class="flex justify-between items-center gap-5">
+                <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer hover:text-green-500 hidden md:block"></i>
+                <i class="fa-solid fa-cart-plus text-xl cursor-pointer hover:text-green-500 hidden md:block"></i>
+                <button class="
+                 text-black border-green-500 border-2 rounded-lg hover:bg-green-500 hover:text-white px-5 py-2 font-normal text-xl cursor-pointer hidden md:block">
+                 Login
+                </button>
+                <button class="
+                 text-white bg-green-500 rounded-lg hover:border-green-500 hover:bg-white hover:text-black hover:border-2 px-5 py-2 font-normal text-xl cursor-pointer hidden md:block">
+                 Register
+                </button>
+                <i class="fa-solid fa-bars text-2xl cursor-pointer block md:hidden"></i>
+            </div>
+        </nav>
+
     </header>
 
     <!-- main -->
