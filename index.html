@@ -34,7 +34,7 @@
 
 <!-- body -->
 
-<body class="sora-font pb-10">
+<body class="sora-font">
 
     <!-- header -->
 
@@ -340,7 +340,7 @@
 
         <!-- arrival section -->
 
-        <section class="arrivel lg:mx-28 mx-4 mt-8 lg:mt-16 mb-20">
+        <section class="arrivel lg:mx-28 mx-4 mt-8 lg:mt-16 lg:mb-48 mb-64">
             <div class="lg:mb-10">
                 <h1 class="md:text-3xl text-2xl font-semibold text-start text-[#179800] mb-6 lg:mb-0">
                     Arrival & Offers
@@ -380,46 +380,51 @@
 
         </section>
 
-        <!-- subscribe section -->
 
-        <section class="lg:mx-28 mx-4 mt-8  subscribe p-5 lg:px-10  bg-[#EFEBE3] flex lg:flex-row flex-col justify-between items-center rounded-xl">
-
-            <div class="lg:w-[50%]">
-                <img class="w-80" src="assats/vegetable-busket.png" alt="">
-            </div>
-            <div class="lg:mr-10 mt-8 lg:mt-0 text-center lg:text-start lg:w-[50%]">
-                <h1 class="lg:text-3xl text-xl lg:text-black text-[#179800] font-semibold mb-4">
-                    Get Grocery News!
-                </h1>
-                <p class="lg:text-xl text-sm mb-4">
-                    Exclusive training tips, ticks, product deals and more.
-                </p>
-                <div class="flex flex-col justify-start gap-4">
-                    <input class="lg:py-3 py-2 px-5 rounded-lg lg:w-[80%] w-full" type="text" name="" id="" placeholder="Enter email....">
-                    <div>
-                        <button class="text-start bg-[#179800] px-4 py-1 rounded-lg text-white w-28">
-                            Subscribe
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </section>
 
 
     </main>
 
     <!-- footer -->
 
-    <footer class=" bg-[#179800] lg:px-28 px-4 pb-10 lg:pb-16 pt-40">
+    <footer class=" bg-[#179800] lg:px-28 px-4 pb-10 lg:pb-16 pt-56">
+
+        <div class="footer flex flex-col lg:flex-row justify-between items-start relative">
 
 
+            <!-- subscribe section -->
 
+            <div class="absolute lg:bottom-48 bottom-96">
 
-        <div class="footer flex flex-col lg:flex-row justify-between items-start">
+                <section class="subscribe p-5 lg:px-10 
+                   bg-[#EFEBE3] flex lg:flex-row flex-col justify-between items-center rounded-xl">
+
+                    <div class="lg:w-[100%]">
+                        <img class="w-80" src="assats/vegetable-busket.png" alt="">
+                    </div>
+                    <div class="lg:mr-10 mt-8 lg:mt-0 text-center lg:text-start lg:w-[100%]">
+                        <h1 class="lg:text-3xl text-xl lg:text-black text-[#179800] font-semibold mb-4">
+                            Get Grocery News!
+                        </h1>
+                        <p class="lg:text-xl text-sm mb-4">
+                            Exclusive training tips, ticks, product deals and more.
+                        </p>
+                        <div class="flex flex-col justify-start gap-4">
+                            <input class="lg:py-3 py-2 px-5 rounded-lg lg:w-[80%] w-full" type="text" name="" id="" placeholder="Enter email....">
+                            <div>
+                                <button class="text-start bg-[#179800] px-4 py-1 rounded-lg text-white w-28">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                
+            </div>
 
             <!-- footer-text-logo -->
-            <div class="footer-text-logo lg:w-[33%]">
+            <div class="footer-text-logo lg:w-[33%] pt-10 lg:pt-0">
                 <img src="assats/logo-footer.png" alt="">
                 <p class="text-[#EFEBE3]">
                     Discover a world of treats, toys,
@@ -440,7 +445,7 @@
 
             <!-- footer icons -->
 
-            <div class="mt-12 lg:w-[30%] flex flex-col lg:justify-end lg:items-end">
+            <div class="mt-12 lg:w-[30%] flex flex-col lg:justify-start lg:items-end">
                 <p class="text-[#EFEBE3]">
                     Follow Us
                 </p>
